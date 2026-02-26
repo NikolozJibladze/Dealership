@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/1409999/pexels-photo-1409999.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 100%;
+    background-color: rgba(rgb(118, 118, 118));
+    position: static;
+}
+.header{
+    position: static;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;         
+    justify-content: center;  
+}
+.header li{
+    display: block;
+    padding: 20px;
+    float: right;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 15px;
+}
+.header ul{
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    font-size: 30px;
+    overflow: hidden;
+    display: flex;
+    list-style: none;         /* Remove bullets */
+    display: flex;            /* Flex layout */
+    justify-content: center;
+    margin-top: 10px;  /* Center horizontally */   
+}
+.header a{
+    text-decoration: none;
+    background: linear-gradient(rgb(200, 0, 0) 33%,rgb(200, 200, 200) 66%,rgb(200, 0, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+label{
+    float: right;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+input{
+    float: right;
+    margin: 30px;
+    height: 40px;
+    width: 400px;
+}
+.header a:hover{
+    cursor: pointer;
+    text-shadow: 0 0 10px rgb(200, 0, 0), 0 0 10px rgb(200, 200, 200), 0 0 10px rgb(200, 0, 0);
+}
+.stageSelection button{
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 50px;
+    float: left;
+}
+.stageSelection button{
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 250px;
+    background-color: white;
+}
+.stageSelection h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 10px black;
+    text-align: center;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.stageSelection img{
+   height: 425px;
+   width: 490px;
+   border-radius: 10px;
+}
+.stageSelection button:hover{
+    cursor: pointer;
+    background-color: rgb(200, 200, 200);
+}
+.main{
+    height: 2000px;
+    width: 100%;
+    background-color: rgba(111, 111, 111, 0.5);
+}
+

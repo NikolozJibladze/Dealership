@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPlanet</title>
+    <link rel="stylesheet" href="ჩვენს შესახებ.css">
+</head>
+<body>
+    <div class="page-overlay">
+        <header class="header">
+            <div class="brand-row">
+                <img src="logo AA.png" alt="Auro Arena" class="logo">
+                <div class="search-wrapper">
+                    <label for="search">ძებნა</label>
+                    <input id="search" type="search" placeholder="მოდელი ან ბრენდი...">
+                </div>
+            </div>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">მთავარი</a></li>
+                    <li><a href="ავტონაწილები.html">პროდუქტები</a></li>
+                    <li><a href="აუქციონი.html">აუქციონი</a></li>
+                    <li><a href="ჩვენს შესახებ.html">ჩვენს შესახებ</a></li>
+                    <li><a href="კონტაქტი.html">კონტაქტი</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+</body>
+</html>
+<center>
+  <div class="auction-container">
+    <h1>აუქციონი</h1>
+    <div class="current-highest">
+      <h2>მიმდინარე უმაღლესი შეთავაზება: $<span id="highestBid">0</span></h2>
+      <p>ყველაზე მაღალი პრეტენდენტი:<span id="highestBidder">არცერთი</span></p>
+    </div>
+    <form id="bidForm">
+      <input type="text" id="bidderName" placeholder="თქვენი სახელი" required />
+      <input type="number" id="bidAmount" placeholder="თქვენი შეთავაზება" min="1" required />
+      <button type="submit">შესვლა</button>
+    </form>
+    <div id="bidMessage" class="message"></div>
+  </div>
+</center>
+</body>
+</html>

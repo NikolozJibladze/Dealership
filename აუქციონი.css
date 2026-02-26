@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: 100%;
+    background-color: rgba(rgb(118, 118, 118));
+    position: static;
+}
+.header{
+    position: static;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;         
+    justify-content: center;  
+}
+.header li{
+    display: block;
+    padding: 20px;
+    float: right;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 15px;
+}
+.header ul{
+    text-align: center;
+    background-color: rgb(50, 50, 50);
+    font-size: 30px;
+    overflow: hidden;
+    display: flex;
+    list-style: none;         /* Remove bullets */
+    display: flex;            /* Flex layout */
+    justify-content: center;
+    margin-top: 10px;  /* Center horizontally */   
+}
+.header a{
+    text-decoration: none;
+    background: linear-gradient(rgb(200, 0, 0) 33%,rgb(200, 200, 200) 66%,rgb(200, 0, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+label{
+    float: right;
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+input{
+    float: right;
+    margin: 30px;
+    height: 40px;
+    width: 400px;
+}
+.header a:hover{
+    cursor: pointer;
+    text-shadow: 0 0 10px rgb(200, 0, 0), 0 0 10px rgb(200, 200, 200), 0 0 10px rgb(200, 0, 0);
+}
+.auction-container {
+    margin-top: 100px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+}
+  
+h1 {
+    color: #333;
+}
+  
+.current-highest h2,
+.current-highest p {
+    margin: 0;
+    color: #555;
+}
+  
+form {
+    margin-top: 20px;
+}
+  
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+form button:hover {
+    background: #555555;
+}
+  
+.message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.main{
+    height: 1000px;
+    width: 100%;
+    background-color: rgba(75, 75, 75, 0.5);
+}
+  
